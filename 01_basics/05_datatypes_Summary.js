@@ -35,4 +35,33 @@ function myFun(){
 }
 
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+
+
+//********************************************************************************* */
+
+// Stack(Primitive)(copy) and heap(non-primitive)(reference) memory
+
+
+let myYoutubeName = 'abcgdh'
+
+let anotherName = myYoutubeName
+anotherName = 'anuj'
+
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let userOne = {
+    email: "abcd@gmail.com",
+    id: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email= "zyx@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
