@@ -48,9 +48,36 @@ const users = [
 users[1].name
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('name'));
+// console.log(tinderUser.hasOwnProperty('name'));
 
+// ****************** Object destructuring *********************
+
+const course = {
+    courseName : "javascript",
+    coursePrice : 999,
+    teacher : "Anuj"
+}
+
+// const {teacher} = course
+// console.log(teacher);
+const {teacher:teach} = course
+console.log(teach);
+
+// *********** JSON ************
+
+// {
+//     'courseName' : "javascript",
+//     'coursePrice' : 999,
+//     'teacher' : "Anuj"
+// }
+
+
+
+
+//   randomuser me api
+
+// JSON formatter
